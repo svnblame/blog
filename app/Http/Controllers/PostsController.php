@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
-use Carbon\Carbon;
-use Illuminate\Http\Request;
+use App\Repositories\Posts;
 
 class PostsController extends Controller
 {
