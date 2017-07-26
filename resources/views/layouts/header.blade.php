@@ -1,6 +1,6 @@
 <div class="blog-header">
   <div class="container">
-    <h1 class="blog-title">My Blog</h1>
-    <p class="lead blog-description">My example blog template built with Bootstrap.</p>
+    <h2 class="blog-title">Gene Kelley</h2>
+    <p class="lead blog-description">Web Developer</p>
   </div>
 </div>
