@@ -149,14 +149,6 @@ h6, .h6 {
   color: #999;
 }
 
-.blog-post-message {
-  position: absolute;
-  z-index: 10;
-  bottom: 30px;
-  right: 20;
-}
-
-
 /*
  * Footer
  */
@@ -173,8 +165,10 @@ h6, .h6 {
 }
 
 #flash-message {
-  position: absolute;
-  bottom: 35px;
-  right: 20px;
-  z-index: 10;
+  animation: flash-message 5s forwards;
+}
+
+@keyframes flash-message {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
 }

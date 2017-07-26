@@ -21,7 +21,7 @@
     @include ('layouts.nav')
 
     @if ($flash = session('message'))
-    <div id="flash-message" class="alert alert-success blog-post-message" role="alert">
+    <div id="flash-message" class="alert alert-success" role="alert">
       {{ $flash }}
     </div>
     @endif
