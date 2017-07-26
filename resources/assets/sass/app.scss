@@ -149,7 +149,6 @@ h6, .h6 {
   color: #999;
 }
 
-
 /*
  * Footer
  */
@@ -163,4 +162,13 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+#flash-message {
+  animation: flash-message 5s forwards;
+}
+
+@keyframes flash-message {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
 }
